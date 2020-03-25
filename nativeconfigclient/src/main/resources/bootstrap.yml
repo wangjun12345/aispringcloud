@@ -1,0 +1,12 @@
+#..name + "-" + active 就是配置中心里配置文件的名称 configclient-dev.yml
+#..uri：配置中心服务地址，注册进去
+#..fail-fast：设置客户端有心啊判断config server获取是否正常
+spring:
+  application:
+    name: configclient
+  profiles:
+    active: dev
+  cloud:
+    config:
+      uri: http://localhost:8762
+      fail-fast: true
