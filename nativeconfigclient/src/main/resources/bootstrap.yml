@@ -1,5 +1,5 @@
-#..name + "-" + active 就是配置中心里配置文件的名称 configclient-dev.yml
-#..uri：配置中心服务地址，注册进去
+#..name + "-" + active 就是配置中心里配置文件的名称 configclient-dev.yml “找什么”
+#..uri：配置中心服务地址，注册进去 “去哪找”
 #..fail-fast：设置客户端有心啊判断config server获取是否正常
 spring:
   application:

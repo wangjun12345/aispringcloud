@@ -1,0 +1,14 @@
+#..name：远程仓库里要找的配置文件的名称 “找什么”
+#..service-id：配置中心服务的name “去哪找” 去defaultZone注册中心的service-id找
+spring:
+  cloud:
+    config:
+      name: configclient
+      label: master
+      discovery:
+        enabled: true
+        service-id: remoteconfigserver
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

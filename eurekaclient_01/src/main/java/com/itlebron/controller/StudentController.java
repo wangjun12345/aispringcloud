@@ -1,5 +1,6 @@
 package com.itlebron.controller;
 
+import com.itlebron.entity.Student;
 import com.itlebron.service.StudentService;
 import com.itlebron.vo.StudentVo;
 import org.springframework.beans.factory.annotation.Autowired;
