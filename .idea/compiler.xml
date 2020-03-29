@@ -9,16 +9,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="remoteconfigserver" />
         <module name="remoteconfigclient" />
-        <module name="eurekaclient_02" />
+        <module name="eurekaclient_01 _2" />
         <module name="ribbon" />
         <module name="feign" />
-        <module name="zipkin" />
-        <module name="nativeconfigclient" />
+        <module name="nativeconfigserver" />
+        <module name="eurekaclient_02" />
         <module name="eurekaclient_01" />
         <module name="zuul" />
+        <module name="nativeconfigclient" />
         <module name="hystrix" />
-        <module name="eurekaclient_01 _2" />
-        <module name="nativeconfigserver" />
+        <module name="zipkin" />
         <module name="eurekaclient_01_2" />
         <module name="eurekaserver" />
       </profile>
