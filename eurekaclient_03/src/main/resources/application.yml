@@ -1,0 +1,17 @@
+server:
+  port: 8014
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+#对于rabbitMQ的支持
+spring:
+  application:
+    name: client-03
+  rabbitmq:
+    host: 192.168.80.128
+    port: 5672
+    username: admin
+    password: admin
+    publisher-confirms: true
+    publisher-returns: true

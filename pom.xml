@@ -21,6 +21,7 @@
         <module>nativeconfigclient</module>
         <module>remoteconfigserver</module>
         <module>remoteconfigclient</module>
+        <module>eurekaclient_03</module>
     </modules>
 
     <parent>
